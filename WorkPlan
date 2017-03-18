@@ -45,7 +45,11 @@ Mobile APP for Candidate
         name of candidate
         phone no of candidate
         email of candidate
+	Work Experience
+	KeySkils 
+		Expandable
         College
+	Does he attend Our interview Previously?
         Current Company
         Current CTC
         Expected CTC
@@ -57,6 +61,18 @@ Mobile APP for Candidate
         Possible matcing JOBs for Him As per his skills
           Job 1 : 10% matching
           Job 2: 20% matching
+	------
+		if interview Scheduled
+			if intyerview yet to happened
+				interview Date And time
+				interviewes
+				Alarm set
+			if interview Done
+				Most Success round
+				Round Left?
+				
+			
+			
 
 
 
