@@ -36,7 +36,8 @@ Mobile APP for Candidate
 3. Requiter side option
 	Controll pannel 
 		Create a JOB card
-			Fill the details 
+			Fill the details
+			is company funded
 		Send a JOB card
 		Recieve JOB card feedback
 		Generate excell report
