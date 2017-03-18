@@ -1,0 +1,68 @@
+Point 1. its a (Record maintaining + Communication) portal For Requriter
+Point 2. its a messaging APP to send information related to JOB + COMPANY
+
+Point 3. This is a JOB search Portal after above two points
+
+Mobile APP for Candidate
+1. Fill expectation
+	Name :
+	Current job location:
+	Current Office Location:
+	Current CTC:
+	Expected CTC:
+	Your skills:
+	Expected work type:
+	looking for MNC:
+	looking for startup:
+	looking for Funded Company:
+2. recieve Job cards
+	THE CARD
+		Company of the JOB
+		Peckage
+		Required Skills
+		Location
+		-----
+		Glassdoor review of the Company
+			Expandable
+		Funding related information of Company
+		Percent of matching to your requirement
+		AI bot opinion about company
+	Feedback option 
+		I am interested Call me now
+		No, Thanks not interested
+		Call me after 30 min
+		Call me in evening
+
+3. Requiter side option
+	Controll pannel 
+		Create a JOB card
+			Fill the details 
+		Send a JOB card
+		Recieve JOB card feedback
+		Generate excell report
+    Controll pannel View
+      It will be a table format
+        name of candidate
+        phone no of candidate
+        email of candidate
+        College
+        Current Company
+        Current CTC
+        Expected CTC
+        Did I call Him
+        Candidates Feed back
+        His/Her notice period
+        Candidate Rank
+        Resume 
+        Possible matcing JOBs for Him As per his skills
+          Job 1 : 10% matching
+          Job 2: 20% matching
+
+
+
+
+
+
+
+
+
