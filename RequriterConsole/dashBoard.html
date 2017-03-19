@@ -1,20 +1,12 @@
 <html>
 	<head>
 		<title>
-			Job Card | Recruiter dashboard
+			Job Card | Requriter dashboard
 		</title>
-		<link rel="stylesheet" type="text/css" 
-				href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		</link>
-		<link rel="stylesheet" type="text/css" 
-				href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
-		</link>
-		<script type="text/javascript" src="../helperJS/jquery-1.12.4.js">
+		<script type="text/javascript" src="../helperJS/jquery-3.2.0.min.js">
 		</script>
-		<script type="text/javascript" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-		
-		
-
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		</link>
 		<style>
 			.borderBottom
 			{
@@ -68,22 +60,30 @@
 				font-weight:600px;
 			}
 		</style>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#example').DataTable( {
-					"ajax": '../ajax/data/arrays.txt'
-				} );
-			} );
-		</script>
 	</head>
 	<body>
 		<div class="rowUs col-md-12 borderBottom">
-			<!--<div class="colNoPad col-md-3 pullLeft">
+			<div class="colNoPad col-md-3 pullLeft">
 				<span class="navbar-brand"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Saumya Ranjan</span>
 			</div>
 			<div class="colNoPad col-md-3 pullRight"><i class="fa fa-envelope fa-fw"></i>
-			</div>-->
-			<nav class="navbar navbar-default">
+			</div>
+		</div>
+		<div class="colNoPad rowUs col-md-12 fillHeight">
+			<div class="colNoPad col-md-2 borderRight fullHeight">
+				<div class="list-group">
+					  <a href="#" class="list-group-item">Candidate List</a>
+					  <a href="#" class="list-group-item">Interview List</a>
+					  <a href="#" class="list-group-item">Create JobCard</a>
+					  <a href="#" class="list-group-item">Job card status</a>
+					  <a href="#" class="list-group-item">Scout (Premium)</a>
+					  <a href="#" class="list-group-item">Candidate Analysys AI</a>
+	
+					</div>
+
+			</div>
+			<div class="col-md-10">
+					<nav class="navbar navbar-default">
 					  <div class="container-fluid">
 						 <!-- Brand and toggle get grouped for better mobile display -->
 						 <div class="navbar-header">
@@ -136,51 +136,13 @@
 						 </div><!-- /.navbar-collapse -->
 					  </div><!-- /.container-fluid -->
 					</nav>
-		</div>
-		<div class="colNoPad rowUs col-md-12 fillHeight">
-			<div class="colNoPad col-md-2 borderRight fullHeight">
-				<div class="list-group">
-					  <a href="#" class="list-group-item">Candidate List</a>
-					  <a href="#" class="list-group-item">Interview List</a>
-					  <a href="#" class="list-group-item">Create JobCard</a>
-					  <a href="#" class="list-group-item">Job card status</a>
-					  <a href="#" class="list-group-item">Scout (Premium)</a>
-					  <a href="#" class="list-group-item">Candidate Analysys AI</a>
-	
-					</div>
-
-			</div>
-			<div class="col-md-10">
-					
 					<div class="panel panel-default">
 					  <div class="panel-heading">
 						 <h3 class="panel-title">Candidate List</h3>
 					  </div>
 					  <div class="panel-body" style="overflow-x:scroll">
-						  <div class="rowHeaderHolder borderBottom candidateRow marginBottom" >
-							<table id="example" class="display" cellspacing="0" width="100%">
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>Position</th>
-										<th>Office</th>
-										<th>Extn.</th>
-										<th>Start date</th>
-										<th>Salary</th>
-									</tr>
-								</thead>
-								<tfoot>
-									<tr>
-										<th>Name</th>
-										<th>Position</th>
-										<th>Office</th>
-										<th>Extn.</th>
-										<th>Start date</th>
-										<th>Salary</th>
-									</tr>
-								</tfoot>
-							</table>
-								<!--<span class="pullLeft headerCell">Name</span>
+						  <div class="rowHeaderHolder borderBottom candidateRow marginBottom">
+								<span class="pullLeft headerCell">Name</span>
 								<span class="pullLeft headerCell">Phone</span>
 								<span class="pullLeft headerCell">Email</span>
 								<span class="pullLeft headerCell">Work Experience</span>
@@ -197,7 +159,7 @@
 								<span class="pullLeft headerCell">Rank</span>
 								<span class="pullLeft headerCell">Resume</span>
 								<span class="pullLeft headerCell">Possible matching for jobs</span>
-								<span class="pullLeft headerCell">Interview scheduled?</span>-->
+								<span class="pullLeft headerCell">Interview scheduled?</span>
 								
 
 							</div>
